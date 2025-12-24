@@ -4,44 +4,47 @@ import { profileData, linksData } from "./data/content";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-gradient-to-b from-[#7dc5f8] to-[#f96363] flex justify-center items-center font-sans overflow-hidden">      
+    <div className="h-screen w-full bg-gradient-to-b from-[#7dc5f8] to-[#f96363] flex justify-center items-center font-sans overflow-hidden relative">      
+      
+      <div className="
+        hidden
+        min-[576px]:block
+        absolute 
+        inset-0 
+        bg-white/15
+        backdrop-blur-md
+      " />
+      
       {/* Smart Container */}
       <div className="
-w-full
-        /* bg-gradient SATIRINI SİLDİM (Cam etkisini bozuyordu) */
+        w-full
         bg-transparent
         p-4
         min-h-screen
         overflow-y-auto
-        
         max-w-[576px]
-
         min-[576px]:h-auto          
         min-[576px]:max-h-[90vh]
-        
-        /* CAM EFEKTİ KISMI */
-        min-[576px]:bg-white/20
-        min-[576px]:backdrop-blur-md
-        min-[576px]:border-[2px] 
-        min-[576px]:border-white/40      
+        min-[576px]:bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
+        min-[576px]:border-[3px] 
+        min-[576px]:border-gray-300   
         min-[576px]:rounded-[2.5rem]   
         min-[576px]:shadow-xl
-
         scrollbar-hide
+        relative
+        z-10
       ">
         
         {/* Header */}
         <Header data={profileData} />
-
+        
         {/* Links */}
         <div className="flex flex-col gap-4 mt-6">
           {linksData.map((link) => (
             <LinkCard key={link.id} link={link} />
           ))}
         </div>
-
       </div>
-
     </div>
   );
 }
