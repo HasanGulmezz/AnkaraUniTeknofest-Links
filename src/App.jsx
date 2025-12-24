@@ -4,11 +4,12 @@ import { profileData, linksData } from "./data/content";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-white flex justify-center items-center font-sans overflow-hidden">      
+    <div className="h-screen w-full bg-gradient-to-b from-[#7dc5f8] to-[#f96363] flex justify-center items-center font-sans overflow-hidden">      
       {/* Smart Container */}
       <div className="
-        w-full
-        bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
+w-full
+        /* bg-gradient SATIRINI SİLDİM (Cam etkisini bozuyordu) */
+        bg-transparent
         p-4
         min-h-screen
         overflow-y-auto
@@ -17,10 +18,13 @@ function App() {
 
         min-[576px]:h-auto          
         min-[576px]:max-h-[90vh]
-        min-[576px]:bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
-        min-[576px]:border-[2px]       
-        min-[576px]:rounded-[2.5rem]   
         
+        /* CAM EFEKTİ KISMI */
+        min-[576px]:bg-white/20
+        min-[576px]:backdrop-blur-md
+        min-[576px]:border-[2px] 
+        min-[576px]:border-white/40      
+        min-[576px]:rounded-[2.5rem]   
         min-[576px]:shadow-xl
 
         scrollbar-hide

@@ -7,9 +7,3 @@ body {
   background-color: #f96363;
   margin: 0;
 }
-
-@media (min-width: 576px) {
-  body {
-    background-color: white;
-  }
-}
