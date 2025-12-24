@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Michroma"', 'sans-serif'],
+        'techno': ['"Michroma"', 'sans-serif'],
       },
   },
 },

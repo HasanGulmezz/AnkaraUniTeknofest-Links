@@ -1,6 +1,6 @@
 const Header = ({ data }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 mb-4">
+    <div className="flex flex-col items-center justify-center font-techno gap-4 mb-4">
       {/* Logo */}
       <div className=" p-1 rounded-full">
         <img 
