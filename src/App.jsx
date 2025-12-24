@@ -39,7 +39,7 @@ function App() {
         <Header data={profileData} />
         
         {/* Links */}
-        <div className="flex flex-col gap-4 mt-6">
+        <div className="flex flex-col gap-4 mt-6 pb-8">
           {linksData.map((link) => (
             <LinkCard key={link.id} link={link} />
           ))}
