@@ -8,7 +8,7 @@ function App() {
       {/* Smart Container */}
       <div className="
         w-full
-        bg-[#EAECE5]
+        bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
         p-4
         min-h-screen
         overflow-y-auto
@@ -17,7 +17,7 @@ function App() {
 
         min-[576px]:h-auto          
         min-[576px]:max-h-[90vh]
-        min-[576px]:bg-[#EAECE5]
+        min-[576px]:bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
         min-[576px]:border-[2px]       
         min-[576px]:rounded-[2.5rem]   
         
