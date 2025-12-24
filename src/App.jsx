@@ -4,7 +4,7 @@ import { profileData, linksData } from "./data/content";
 
 function App() {
   return (
-    <div className="h-screen w-full bg-gradient-to-b from-[#7dc5f8] to-[#f96363] flex justify-center items-center font-sans overflow-hidden relative">      
+    <div className="min-h-screen w-full bg-gradient-to-b from-[#7dc5f8] to-[#f96363] flex justify-center items-center font-sans overscroll-none relative">      
       
       <div className="
         hidden
@@ -21,10 +21,11 @@ function App() {
         bg-transparent
         p-4
         min-h-screen
-        overflow-y-auto
+        overscroll-none
         max-w-[576px]
         min-[576px]:h-auto          
         min-[576px]:max-h-[90vh]
+         min-[576px]:overflow-y-auto
         min-[576px]:bg-gradient-to-b from-[#7dc5f8] to-[#f96363]
         min-[576px]:border-[3px] 
         min-[576px]:border-gray-300   
@@ -39,7 +40,7 @@ function App() {
         <Header data={profileData} />
         
         {/* Links */}
-        <div className="flex flex-col gap-4 mt-6 pb-12">
+        <div className="flex flex-col gap-4 mt-6 pb-16">
           {linksData.map((link) => (
             <LinkCard key={link.id} link={link} />
           ))}
