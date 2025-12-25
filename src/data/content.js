@@ -1,6 +1,6 @@
 export const profileData = {
   name: "Ankara Üniversitesi Teknofest Topluluğu",
-  bio: ["Topluluğumuz sayfasına hoş geldiniz!"],
+  bio: ["Topluluk sayfamıza hoş geldiniz!"],
   image: "/logos/Logo-Son.png",
 };
 
