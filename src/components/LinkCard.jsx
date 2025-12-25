@@ -1,9 +1,14 @@
+import { incrementCount } from "../firebase";
 const LinkCard = ({ link }) => {
+  const handleClick = () => {
+    incrementCount(link.title);
+  };
   return (
     <a
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={handleClick}
       className="
         relative
         flex items-center
