@@ -9,7 +9,7 @@ export const linksData = [
     id: 1,
     title: "‼️Teknofest Tanıtım Etkinliği‼️",
     description: "Formu doldurarak Teknofest tanıtım etkinliğimize katılabilirsiniz!",
-    url: "https://docs.google.com/forms/d/1PgVPM4EDz-xLz3i7Beu12jBOZ6jVnuYgnHgqBmXLsCk/edit",
+    url: "https://forms.gle/DdpmUBmy5Er8V2NT8",
     image: "/logos/Logo-Son.png", 
   },
   {
