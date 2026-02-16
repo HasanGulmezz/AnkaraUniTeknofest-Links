@@ -5,13 +5,6 @@ export const profileData = {
 };
 
 export const linksData = [
-    {
-    id: 1,
-    title: "‼️Teknofest Tanıtım Etkinliği‼️",
-    description: "Formu doldurarak Teknofest tanıtım etkinliğimize katılabilirsiniz!",
-    url: "https://forms.gle/DdpmUBmy5Er8V2NT8",
-    image: "/logos/Logo-Son.png", 
-  },
   {
     id: 2,
     title: "WhatsApp",
