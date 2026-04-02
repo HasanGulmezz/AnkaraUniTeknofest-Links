@@ -5,13 +5,6 @@ export const profileData = {
 };
 
 export const linksData = [
-    {
-    id: 1,
-    title: "ASELSAN Teknik Gezisi🚀",
-    description: "Sınırlı kontenjanla ASELSAN kapıları açılıyor — sen de bu fırsatın bir parçası ol❗",
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSdLhhuKV7DhjZ7Pak6QtacRN9OeNLR8NLkH_A5D-3bE-S1BWQ/viewform",
-    image: "/logos/Forms.svg.png", 
-  },
   {
     id: 2,
     title: "WhatsApp",
