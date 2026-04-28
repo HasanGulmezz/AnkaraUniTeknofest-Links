@@ -5,6 +5,13 @@ export const profileData = {
 };
 
 export const linksData = [
+    {
+    id: 1,
+    title: "Proje Fuarı Başvuru Formu",
+    description: "Projeni fuarda sergilemek istiyorsan formu doldurmayı unutma",
+    url: "https://forms.gle/5x5oFwkVhZNrK5AVA",
+    image: "/logos/Forms.svg.png", 
+  },
   {
     id: 2,
     title: "WhatsApp",
