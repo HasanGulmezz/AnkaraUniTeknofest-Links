@@ -5,6 +5,13 @@ export const profileData = {
 };
 
 export const linksData = [
+    {
+    id: 1,
+    title: "Yönetim kurulu alımı",
+    description: "Ekimizde yerinizi alın!",
+    url: "https://forms.gle/Tbcud2HCeWvhLYtKA",
+    image: "/logos/Forms.svg.png", 
+  },
   {
     id: 2,
     title: "WhatsApp",
